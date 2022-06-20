@@ -3,26 +3,35 @@
     --secondary-font: "Raleway";
     --main-font: "Roboto";
 
-    /* text colors */
+    /* кольори тексту */
     --black-txt-cl: #000000;
     --accent-txt-cl: #2196F3;
     --dark-txt-cl: #212121;
     --light-txt-cl: #FFFFFF;
     --gray-txt-cl: #757575;
-    /* background-color */
+    /* кольори фону */
     --gray-bgr-cl: #F5F4FA;
     --dark-bgr-cl: #2F303A;
     --light-bgr-cl: #ffffff;
     --blue-but-cl: #188CE8;
-
 }
-
-.body {
+/*  */
+body {
     letter-spacing: 0.03em;
     font-size: 14px;
     color: var(--dark-txt-cl);
     background-color: var(--light-bgr-cl);
     font-family: 'Roboto', sans-serif;
+}
+
+
+/* бокси для центруваня контенту */
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 /* підсвітка кнопки активної сторінки */
@@ -49,6 +58,9 @@
     color: var(--black-txt-cl);
     font-size: 26px;
     line-height: 31px;
+
+    margin-left: 215px;
+    margin-top: 24px;
 }
 
 .logo {
@@ -58,6 +70,25 @@
 }
 
 /* блок наігація в хедері */
+.main-nav{
+    display: flex;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.header-list{
+display: flex;
+margin-left: 93px;
+margin: top 32px; ;
+
+}
+.auth-nav{
+    display: flex;
+}
+
+
 .header-link {
     font-style: normal;
     font-weight: 500;
