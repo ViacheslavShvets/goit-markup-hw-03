@@ -15,7 +15,7 @@
     --light-bgr-cl: #ffffff;
     --blue-but-cl: #188CE8;
 }
-/*  */
+/* загальні властивості  */
 body {
     letter-spacing: 0.03em;
     font-size: 14px;
@@ -23,6 +23,15 @@ body {
     background-color: var(--light-bgr-cl);
     font-family: 'Roboto', sans-serif;
 }
+/* reeset */
+h1,h2,h3,h4,p {
+margin: 0;
+}
+/* загальні властивоті зображень */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;}
 
 
 /* бокси для центруваня контенту */
@@ -45,10 +54,13 @@ body {
 
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .text {
     font-family: var(--main-font);
+
 }
 
 /* логотип в хедері */
@@ -59,8 +71,6 @@ body {
     font-size: 26px;
     line-height: 31px;
 
-    margin-left: 215px;
-    margin-top: 24px;
 }
 
 .logo {
@@ -76,12 +86,10 @@ body {
 
 .header-nav{
     display: flex;
-    align-items: center;
 }
 .header-list{
 display: flex;
-margin-left: 93px;
-margin: top 32px; ;
+
 
 }
 .auth-nav{
