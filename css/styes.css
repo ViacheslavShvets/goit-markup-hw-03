@@ -338,6 +338,9 @@ display: flex;
 }
 
 /* портфоліо початок */
+.portfolio-box {
+    padding-bottom: 94px;
+}
 
 /* кнопки в портфоліо */
 .filter-list{
